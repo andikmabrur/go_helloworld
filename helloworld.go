@@ -15,4 +15,12 @@ func main() {
 
 		println("Print line : ", i)
 	}
+
+	println("++++++++++++++++++++++++")
+	for j := 0; j < 10; j++ {
+		if j%2 == 0 {
+			continue
+		}
+		println("Print line : ", j)
+	}
 }

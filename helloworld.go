@@ -6,6 +6,7 @@ func main() {
 	fmt.Println("Hello world!!!")
 	fmt.Println("I am Coming here")
 
+	//for like while
 	i := 0
 	for {
 		i++
@@ -16,6 +17,7 @@ func main() {
 		println("Print line : ", i)
 	}
 
+	//for like for
 	println("++++++++++++++++++++++++")
 	for j := 0; j < 10; j++ {
 		if j%2 == 0 {
